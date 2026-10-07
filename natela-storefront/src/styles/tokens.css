@@ -1,0 +1,55 @@
+/* ---------------------------------------------------------
+   Natela Fit — design tokens
+   Every colour, size and spacing value the site uses lives here.
+   Change a value here and it changes everywhere.
+   Source: Natela Fit Logo and Brand Guidelines (2025)
+   --------------------------------------------------------- */
+
+:root {
+  /* Brand colours — straight from the guidelines */
+  --brand-red: #e93e3a;
+  --brand-orange: #fbb040;
+  --brand-yellow: #fff200;
+  --brand-black: #000000;
+  --brand-white: #ffffff;
+
+  /* The logo gradient. Used for primary buttons and accents. */
+  --brand-gradient: linear-gradient(105deg, var(--brand-orange), var(--brand-red));
+
+  /* Neutrals */
+  --ink: #111111;
+  --ink-soft: #5e5e5a;
+  --ink-muted: #7c7c78;
+  --ink-faint: #a8a8a3;
+  --line: #e8e8e5;
+  --line-soft: #efefec;
+  --surface: #ffffff;
+  --surface-soft: #fafaf8;
+  --surface-grey: #f4f4f1;
+
+  /* Status */
+  --ok: #4e8c5b;
+  --warn: var(--brand-red);
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* Other */
+  --radius: 2px;
+  --radius-lg: 3px;
+  --page-pad: 56px;
+  --font: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+@media (max-width: 720px) {
+  :root {
+    --page-pad: 20px;
+  }
+}
